@@ -1,11 +1,11 @@
 # PROXMOX
 Zbiór instrukcji związanych z Proxmox
 
-## [PL/ENG] Instalacja TrueNAS
-- [ENG] :cinema: TrueNAS Core 12 Install and Basic Setup [Watch](https://www.youtube.com/watch?v=WjLaK8yQAag)
-- [PL] :cinema: TrueNAS - własny serwer danych od podstaw [Oglądnij](https://www.youtube.com/watch?v=-wxi7mBJpWo)
-- [PL] :cinema: Instrukcja instalacji TrueNAS razem z instrukcją podłączenia dysku do Maszyny Wirtualnej [Patrz niżej]
-- [ENG] :cinema: How to run TrueNAS on Proxmox? [Watch](https://www.youtube.com/watch?v=M3pKprTdNqQ)
+## [PL/EN] Instalacja TrueNAS
+- :cinema: [EN] [TrueNAS Core 12 Install and Basic Setup](https://www.youtube.com/watch?v=WjLaK8yQAag)
+- :cinema: [PL] [TrueNAS - własny serwer danych od podstaw](https://www.youtube.com/watch?v=-wxi7mBJpWo)
+- :cinema: [PL] [Instrukcja instalacji TrueNAS razem z instrukcją podłączenia dysku do Maszyny Wirtualne](https://www.youtube.com/watch?v=31bSvxg-uAY)
+- :cinema: [EN] [How to run TrueNAS on Proxmox?](https://www.youtube.com/watch?v=M3pKprTdNqQ)
 
 ### [PL] Instrukcja dodawania zakresu zasobów "Pools" 
 1. Logujemy się do TrueNAS
@@ -37,12 +37,12 @@ Zbiór instrukcji związanych z Proxmox
     The contents of all added disks will be erased.
 
 ## [PL] Nowy Dysk w Linux
-[PL] :cinema: Zarządzanie dyskami w systemach GNU/Linux (Część I) - zagadnienia podstawowe [Oglądnij](https://www.youtube.com/watch?v=B7AVlP4GpZQ)
+- :cinema: [PL] [Zarządzanie dyskami w systemach GNU/Linux (Część I) - zagadnienia podstawowe](https://www.youtube.com/watch?v=B7AVlP4GpZQ)
 
-## [PL/ENG] Podłączenie partycji dysku do maszyny wirtualnej na proxmox
-- [PL] :cinema: PROXMOX - Podłączenie dysku fizycznego do Maszyny Wirtualnej (VM) na przykładzie FreeNAS [Oglądnij](https://www.youtube.com/watch?v=31bSvxg-uAY)
+## [PL/EN] Podłączenie partycji dysku do maszyny wirtualnej na proxmox
+- :cinema: [PL] [PROXMOX - Podłączenie dysku fizycznego do Maszyny Wirtualnej (VM) na przykładzie FreeNAS](https://www.youtube.com/watch?v=31bSvxg-uAY)
     - Instrukcja instalacji TrueNAS razem z instrukcją podłączenia dysku do Maszyny Wirtualnej
-- [ENG] :open_book: Passthrough Physical Disk to Virtual Machine (VM) [Instruction](https://pve.proxmox.com/wiki/Passthrough_Physical_Disk_to_Virtual_Machine_(VM))
+- :open_book: [EN] [Passthrough Physical Disk to Virtual Machine (VM)](https://pve.proxmox.com/wiki/Passthrough_Physical_Disk_to_Virtual_Machine_(VM))
 
  ### [PL] Instrukcja podłączenia dysku do maszyny wirtualnej
 1. Szukamu nr seryjnego dysku - serial
@@ -54,8 +54,8 @@ ls -l /dev/disk/by-id/ | grep <numer_seryjny>
 qm set <nr_maszyny_wirtualnej> -scsi<kolejny_nr> /dev/disk/by-id/<id_dysku>
 ```
 
-## [PL/ENG] Instalacja i konfiguracja Plex
-[ENG] TrueNAS Core 12 Plex Plugin Install and Setup [Watch](https://www.youtube.com/watch?v=looBzNEtjDQ)
+## [PL/EN] Instalacja i konfiguracja Plex
+:cinema: [EN] [TrueNAS Core 12 Plex Plugin Install and Setup](https://www.youtube.com/watch?v=looBzNEtjDQ)
 
 ### [PL] Instrukcja Instalacji i konfiguracji Plex 
 1. Logujemy się do TrueNAS
@@ -79,7 +79,7 @@ qm set <nr_maszyny_wirtualnej> -scsi<kolejny_nr> /dev/disk/by-id/<id_dysku>
      - group@ :arrow_right: "Perrmision Type: Basic" > "Permissions: Full Control" > "Flags: Inherit"
      - Klikamy "SAVE"
 9. Udostępniamy pliki:
-    - W eksploatorze plików wpisujemy adres IP maszyny z TruNAS \\10.1.2.102 
+    - W eksploatorze plików wpisujemy adres IP maszyny z TruNAS "\\10.1.2.102" 
         - odajemy login i hasło użytkownika 
         - wklejamy pliki
 10. Instalujemy Plex
