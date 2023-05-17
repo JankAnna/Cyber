@@ -15,16 +15,16 @@ Zbiór instrukcji związanych z Proxmox
 > Warning: There are 3 disks available that have non-unique serial numbers. Non-unique serial numbers can be caused by a cabling issue and adding such disks to a pool can result in lost data.
 5. Zaznaczamy podłączone dyski i klikamy: :arrow-right:
 6. Wybieramy Stripe / Mirror / Raid-Z > Odznaczamy [x] Force > Potwierdzamy: [x] Confirm   
-    Jeśli wybieramy: **Stripe** wykorzystuje całą pojemność dysków do przechowywania i nie ma nadmiarowości. Uszkodzone lub zdegradowane dyski w pasku mogą spowodować utratę danych!
+    - Jeśli wybieramy: **Stripe** wykorzystuje całą pojemność dysków do przechowywania i nie ma nadmiarowości. Uszkodzone lub zdegradowane dyski w pasku mogą spowodować utratę danych!
         The current pool layout has these cautions:
             - A stripe data vdev is highly discouraged and will result in data loss if it fails
             - One or more data vdevs has disks of different sizes.
         Create the pool with this layout?
-    Jeśli wybieramy: **Mirror** wymaga co najmniej dwóch dysków i tworzy kopię lustrzaną danych z jednego dysku na każdym innym dysku w vdev, co może ograniczyć całkowitą pojemność.
+    - Jeśli wybieramy: **Mirror** wymaga co najmniej dwóch dysków i tworzy kopię lustrzaną danych z jednego dysku na każdym innym dysku w vdev, co może ograniczyć całkowitą pojemność.
         The current pool layout has these cautions:
             - One or more data vdevs has disks of different sizes.
         Create the pool with this layout?
-    Jeśli wybieramy: **Raid-Z** oferują różne proporcje redundancji danych i całkowitej pojemności wybranych dysków.
+    - Jeśli wybieramy: **Raid-Z** oferują różne proporcje redundancji danych i całkowitej pojemności wybranych dysków.
         The current pool layout has these cautions:
             - One or more data vdevs has disks of different sizes.
         Create the pool with this layout?
