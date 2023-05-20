@@ -21,6 +21,27 @@ Cybersecurity is a field that involves protecting computer systems and networks 
   - Blue Team, which operates in a defensive role
   - Red Team, which operates in an offensive role
 
+### Impact of Information Security
+
+#### Technological Impact
+
+Nowadays, we heavily rely on technology since it plays an important role in our daily lives. Technology can be found in water purification facilities, airports, autonomous vehicles, drones, and more. Each device or facility that implements technology requires strong security measures to prevent its systems from being hacked.
+
+> Cybersecurity is needed everywhere. Every technological device requires protection.
+
+### Principles of Information Security
+
+<img src="img/cia_triad-1024x576.png" width=100% alight="center">
+
+#### Confidentiality
+Confidentiality, also referred to as privacy, is the first principle of information security. It calls for secure storage and transmission of information. Confidentiality also deals with proper data classification and management.
+
+#### Integrity
+Integrity typically deals with verifying the consistency of the data that passes from one computer system to another. Unauthorized third-parties should not be able to modify it.
+
+#### Availability
+Data and resources need to be available. Availability is maintained using different methods, such as hardware maintenance, software patching, and network optimization. Backups and dedicated hardware can also ensure that various types of attacks or malfunctions do not affect it.
+
 ## `Hacker & Malware Types`
 
 ## `Cybersecurity Terminology`

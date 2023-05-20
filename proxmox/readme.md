@@ -73,6 +73,11 @@ lshw -class disk -class storage
 ls -l /dev/disk/by-id/ | grep <numer_seryjny>
 qm set <nr_maszyny_wirtualnej> -scsi<kolejny_nr> /dev/disk/by-id/<id_dysku>
 ```
+lub
+```
+ls -l /dev/disk/by-uuid 
+qm set <nr_maszyny_wirtualnej> -scsi<kolejny_nr> /dev/disk/by-uuid/<uuid_dysku>
+```
 
 ## [PL/EN] Instalacja i konfiguracja Plex
 :cinema: [EN] [TrueNAS Core 12 Plex Plugin Install and Setup](https://www.youtube.com/watch?v=looBzNEtjDQ)
