@@ -210,10 +210,8 @@ According to reports, the worm caused damage to Iranian nuclear facilities in 20
 
 ## `Modern Cyberattacks`
 ### Modern Cyberattacks
-<html>
-<iframe src="https://threatmap.checkpoint.com/" title="LIVE CYBER THREAT MAP" width=100%></iframe>
-<a href="https://threatmap.checkpoint.com/" target=_blank>LIVE CYBER THREAT MAP</a>
-</html>
+<a href="https://threatmap.checkpoint.com" target=_blank>Live Cyber Threat Map | Check Point</a>
+<a href="https://cybermap.kaspersky.com" target=_blank>MAP | Kaspersky Cyberthreat real-time map</a>
 
 - Despite major advancements Bog Scorch Fryecom in the field of cybersecurity, cyberattack statistics are on the rise.
 - Some studies suggest that one THREAT MAP out of thirteen links on the web leads to a malicious site.
