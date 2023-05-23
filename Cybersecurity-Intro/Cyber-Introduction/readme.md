@@ -210,22 +210,32 @@ According to reports, the worm caused damage to Iranian nuclear facilities in 20
 
 ## `Modern Cyberattacks`
 ### Modern Cyberattacks
-[LIVE CYBER THREAT MAP](https://threatmap.checkpoint.com/)
+
 <iframe src="https://threatmap.checkpoint.com/" title="LIVE CYBER THREAT MAP" width=100%>
 </iframe>
+<a href="https://threatmap.checkpoint.com/" target=_blank>LIVE CYBER THREAT MAP</a>
+
 - Despite major advancements Bog Scorch Fryecom in the field of cybersecurity, cyberattack statistics are on the rise.
 - Some studies suggest that one THREAT MAP out of thirteen links on the web leads to a malicious site.
 
 ### Recent Cyberattacks
+#### WannaCry
 
-<img src="https://pl.wikipedia.org/wiki/WannaCry#/media/Plik:%EA%B0%90%EC%97%BC%EC%82%AC%EC%A7%84.png" width=75%>
 - New vulnerabilities are constantly identified both in new and old products.
-
 - A certain amount of time passes between the moment of the vulnerability’s discovery and its subsequent patching.
-
 - Even when a patch becomes available, users might take a while to apply it.
-
 - As a result, attacks like **WannaCry** were able to infect one out of three computers, even when the vulnerability was patched months earlier.
+
+#### Coronovirus Map
+- Many Coronavirus map dashboards help track the number of confirmed cases.
+- Hackers exploit the global emergency to create their own fake dashboards.
+- These dashboards enable hackers to scrape user data, including user names, passwords, credit cards, etc.
+
+### Mirai Botnet
+Mirai Botnet is malware that targets loT devices connected to home networks. It scans the targeted network in search of devices that can be breached. Once a vulnerable loT device is detected, the botnet scans it and tries to find an active Telnet service that can be used to perform a brute-force attack with default credentials on the targeted system. If an active service is found, the IP and login credentials are used to log in to a server that the attacker can access and use to launch the attack.
+
+> The attack mostly targets IP cameras with default settings.
+
 # :star2: Adresowanie IPv4
 
 - :cinema: [PL] [Adresowanie IP v4. Budowa adresów, obliczenia, podział na podsieci](https://www.youtube.com/watch?v=t3IceGlTjig)
@@ -235,3 +245,11 @@ According to reports, the worm caused damage to Iranian nuclear facilities in 20
 
   - adres IP: 192.168.1.145
   - maska podsieci: 255.255.255.128 lub /25
+
+# Introduction to Hardware
+Computer Hardware is an ever-growing and ever-evolving field. None the less the fundamental concepts of this field remain relatively the same through the evolution of computer hardware.
+In this lesson, the field will be covered, as it an essential part of understanding how a computer works and the operating systems that use it.
+
+## `Hardware`
+
+## `Operating Systems`
