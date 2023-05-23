@@ -31,7 +31,7 @@ Nowadays, we heavily rely on technology since it plays an important role in our 
 
 ### Principles of Information Security
 
-<img src="img/cia_triad-1024x576.png" width=100% alight="center">
+<a href="https://securityx.ca/blog/confidentiality-integrity-availability/"><img src="img/cia_triad-1024x576.png" width=50% alight="center"></a>
 
 #### Confidentiality
 Confidentiality, also referred to as privacy, is the first principle of information security. It calls for secure storage and transmission of information. Confidentiality also deals with proper data classification and management.
@@ -42,12 +42,190 @@ Integrity typically deals with verifying the consistency of the data that passes
 #### Availability
 Data and resources need to be available. Availability is maintained using different methods, such as hardware maintenance, software patching, and network optimization. Backups and dedicated hardware can also ensure that various types of attacks or malfunctions do not affect it.
 
+### Hacking in Information Security
+Hacking can be interpreted differently based on the scenario. 
+The term generally describes a situation in which the functionality of a software or hardware product is altered and used in a way that contradicts the intended use originally set by the developer or manufacturer. In the realm of cybersecurity, hacking is usually associated with obtaining unauthorized access to a local or remote system.
+
+> Bypassing limitations set on a product or a program is also considered a form of hacking.
+
 ## `Hacker & Malware Types`
+
+### What is a Hacker?
+
+#### Hacker
+The term **hacker** usually refers to a computer expert who uses skill and knowledge to perform unlawful actions. A hacker tries to **bypass** security mechanisms and **exploit vulnerabilities** using various methods that ensure their anonymity. Hackers employ advanced techniques to extract sensitive data from a targeted computer or website, including user names, passwords, credit card information, and more.
+
+> Although the term ‘hacker’ has negative connotations, different types of hackers exist, and not all hackers have malicious intentions.
+
+### Delegation of Responsibilities
+
+#### Red Team
+In an organization, the Red Team includes a group of security experts who actively investigate and probe corporate systems in search of vulnerabilities. The Red Team performs bench tests and live tests on the systems. Red Team professionals are also known as Penetration Testers.
+
+#### Blue Team
+The Blue Team unit in an organization consists of information security and cybersecurity experts, whose role is to defend systems by implementing security settings, configurations, measures, and policies.
+
+#### Purple Team
+Purple Team is a term used to describe personnel that do not officially belong to red or blue teams, but perform operations that are typically handled by both.
+
+### The Hacker’s Mindset
+
+> A security expert needs to safeguard an entire system, but a hacker only needs to find a single flaw to breach it.
+
+#### There is Always a Way in
+When it comes to the cyber world, a hacker’s mindset is based on the offensive approach to computing. A hacker begins planning an attack knowing there is always a way to penetrate a targeted system. Hackers are typically competitive, challenge-seeking individuals who continuously strive to advance their cyber knowledge and development skills.
+
+#### Character Traits
+- Anything is possible
+- Be competitive
+- Think creatively
+- Bug bounties
+- Accept challenges
+- Love what you do!
+
+### Hacker Types
+
+#### White Hat
+White Hat hackers are ethical hackers who specialize in compromising computer operating systems, and use their abilities for good intentions, such as identifying vulnerabilities in systems or networks before they can be compromised by malicious hackers.
+
+#### Black Hat
+Black Hat hackers are malicious hackers who usually infiltrate computer systems for personal gain, such as money, power, political influence, revenge, or to cause damage. Black Hat hackers work on their own or in groups, and mostly engage in criminal and illegal activities.
+
+#### Gray Hat
+Gray Hat hackers are situated somewhere between white hats and black hats. They are generally not motivated by personal gain or a desire to cause damage, but may technically commit illegal actions. It is not a good idea to hack into unauthorized systems even with good intentions, since there may be legal consequences.
+
+### Hacker Motivations
+
+#### Financial Gain
+Most hackers are motivated by financial gain. As a result, financial organizations become major targets for such cyberattacks. Nonetheless, hackers can also target smaller businesses, whose systems are not secure enough and can easily be hacked. Home users also fall victim to financial gain attacks due to weak security systems, social engineering, or malware.
+
+#### Espionage
+Hackers who belong to government agencies usually try to steal information from foreign countries or corporations that retain valuable data. In some cases, hackers working for commercial companies perform attacks as part of industrial espionage. The targeted information can be political or related to manufacturing operations.
+
+#### FIG
+Fun, Ideology, and Grudge (FIG) is a general term used to describe motivations that are based on personal feelings and ideologies the attacker has towards a certain country, company, organization, or group of people. FIG also includes “Hacktivism,” which can be politically oriented, or based on anarchic civil disobedience.
+
+### Active Domains
+
+#### Applicative
+Applicative attacks focus on websites or applications, and will typically be launched from remote locations, perhaps even from a different continent. Since most applications today interact with infrastructure, they will be obvious targets.
+
+#### Infrastructure
+Infrastructure attacks focus on organization networks, and may be follow-ups to canal applicative attacks or social engineering. Infrastructure in a company is meant to ensure that the network is secure from external or internal attackers.
+
+#### Hardware
+Hardware attacks are the most complex types of attacks, and require advanced knowledge in fields such as reverse engineering and electronics. Unlike in other domains, in hardware exploitation, the target is the product itself, rather than the company.
 
 ## `Cybersecurity Terminology`
 
-## `Modern Cyberattacks`
+### Cybersecurity Terms
 
+#### Cybersecurity
+Cybersecurity refers to the process of securing networks against various attacks. It is managed by IT teams or experienced security professionals.
+Safeguarding computer systems has become increasingly difficult over the years since the number and variety of new cyberattacks is constantly on the rise.
+
+#### Cyberattack
+A cyberattack is any hacking attempt to steal information, corrupt systems, or manipulate them in networks, companies, and even personal computers.
+
+#### Cybercrime
+Cybercrime refers to illegal actions that breach targeted cybersystems for various purposes.
+
+#### Botnet
+A Bot is a device that can be used to perform automated, and often malicious tasks. 
+A Botnet refers to a group of infected computers (bots) managed by a hacker.
+
+#### Vulnerability
+Vulnerability is a weakness, flaw or breach in the security of the computer system. Vulnerabilities are found everywhere, affecting computers and users alike. They exist in operating systems, services, and software and hardware components.
+
+#### Exploit
+The term exploit refers to using software applications or code to take advantage of a system vulnerability.
+By doing so, an attacker can obtain additional capabilities within the targeted system.
+There are many ways to perform exploits, and each method is tailored to the weaknesses of the targeted system.
+
+#### Malware
+Malware (malicious software) is a program that serves several functions, and usually carries a payload that can exploit a vulnerability within the system to perform different actions according to the attacker’s agenda.
+
+### Malware Types
+
+#### Virus
+A computer virus is a type of malicious software that affects computers.
+Once the computer is infected, the virus replicates itself, spreading to other programs, and infecting files on the computer through malicious code injection.
+
+#### Worm
+A computer worm is a type of malware that overloads the computer system by continuously replicating itself.
+Once the worm is activated, it does not need to attach itself to any software or depend on human interaction to spread itself to other computers.
+
+#### Trojan
+A Trojan is a software that usually spreads through malicious email attachments, or when users visit infected websites. The victim needs to execute the infected program that is disguised asa legitimate one to activate the Trojan.
+
+#### Ransomware
+Ransomware is a type of malicious program that encrypts the victim’s data and holds it hostage while waiting for a cryptocurrency payment.
+The encrypted data is typically restored only when the victim pays the attacker a specified sum of money.
+
+#### Scareware
+Scareware is a form of malware that uses social engineering to trick a user into believing their computer is infected with a virus, and make them use a fake program to remove it.
+Unfortunately, the software itself Operates as a virus.
+
+### Offensive Security Terms
+
+#### Keylogger
+A keylogger is a type of malware cybercriminals use to log their victim's keystrokes on a targeted device and record sensitive information, such as usernames and passwords. The keylogger is usually programmed to send this data to the attacker.
+
+#### Social Engineering
+Social engineering occurs when a hacker manipulates a person into revealing sensitive and personal information. For example, con artists can interact with their intended victims and try to obtain their passwords.
+
+#### Encryption
+Encryption is the process in which information is encoded to prevent unauthorized people from accessing or reading it.
+
+### Defensive Security Terms
+
+#### Firewall
+A firewall is a security system that monitors incoming and outgoing network traffic and filters it according to predefined rules. The firewall has an integral part in securing computer systems.
+
+#### Network Access Control
+Network Access Control (NAC) is a network management software solution that monitors network access and implements security policies to mitigate risks. NAC helps identify, resolve, and prevent network security threats.
+
+#### Endpoint Security
+Endpoint Security solutions typically refers to tools and techniques used to protect
+endpoint components from cyberattacks, such as zero-day exploits.
+
+> Precautionary steps should be taken to prevent cyberattacks.
+
+#### IDS
+An Intrusion Detection System (IDS) is designed to monitor and detect suspicious network traffic based on signatures. IDS systems work best in combination with IPS systems. For example, suppose an attacker sends a malicious file over a network. In that case, the system will alert the user that their login details were compromised.
+
+#### IPS
+An Intrusion Prevention System (IPS) is an advanced software application that identifies and blocks suspicious traffic. Suppose a user sends a malicious file over a network. In that case, the system will prevent them from connecting for a given amount of time.
+
+### Breaches Worldwide
+
+#### eBay
+In 2014, eBay discovered that hackers had access to its system for 229 days. During that time, sensitive information about 145 million users was exposed, including email addresses, residential addresses, birth dates, first names, and encrypted passwords. Hackers were able to penetrate the system using the certificates of three corporate employees.
+
+#### Stuxnet
+Stuxnet is one of the largest cyberattacks in the world. It is a malicious worm that spreads by plugging a USB flash drive into a computer that is connected to the network. Once inside the system, the worm begins to spread to other computers on the network.
+
+#### WannaCry
+According to reports, the worm caused damage to Iranian nuclear facilities in 2010. The WannaCry cyberattack first came to light in 2017. This ransomware cryptoworm targeted Windows computers around the world. Once activated, the ransomware encrypted the computer's data, and users could not access their files. If the victims wanted to decrypt the files, they had to pay $300 in Bitcoin currency, hoping that the hackers would release the data.
+
+## `Modern Cyberattacks`
+### Modern Cyberattacks
+[LIVE CYBER THREAT MAP](https://threatmap.checkpoint.com/)
+<iframe src="https://threatmap.checkpoint.com/" title="LIVE CYBER THREAT MAP" width=100%>
+</iframe>
+- Despite major advancements Bog Scorch Fryecom in the field of cybersecurity, cyberattack statistics are on the rise.
+- Some studies suggest that one THREAT MAP out of thirteen links on the web leads to a malicious site.
+
+### Recent Cyberattacks
+
+<img src="https://pl.wikipedia.org/wiki/WannaCry#/media/Plik:%EA%B0%90%EC%97%BC%EC%82%AC%EC%A7%84.png" width=75%>
+- New vulnerabilities are constantly identified both in new and old products.
+
+- A certain amount of time passes between the moment of the vulnerability’s discovery and its subsequent patching.
+
+- Even when a patch becomes available, users might take a while to apply it.
+
+- As a result, attacks like **WannaCry** were able to infect one out of three computers, even when the vulnerability was patched months earlier.
 # :star2: Adresowanie IPv4
 
 - :cinema: [PL] [Adresowanie IP v4. Budowa adresów, obliczenia, podział na podsieci](https://www.youtube.com/watch?v=t3IceGlTjig)
