@@ -327,7 +327,7 @@ Linux is a kernel that runs numerous distributions. They all share the same core
 MacOS is a proprietary OS owned by Apple. In some aspects, it is similar to Linux distributions, but is more limited in its capabilities.
 
 ### Desktop Vs. Server
-
+<table>
 <th>Desktop</th>
 <td>
 <tr>Desktop oriented OS has more graphical components and a simplified user environment</tr>
@@ -345,3 +345,4 @@ MacOS is a proprietary OS owned by Apple. In some aspects, it is similar to Linu
 <tr>Supports large amounts of storage and RAM</tr>
 <tr>Durability is important, so updates are less frequent, and are tested more carefully</tr>
 </td>
+</table>
