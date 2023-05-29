@@ -357,3 +357,86 @@ MacOS is a proprietary OS owned by Apple. In some aspects, it is similar to Linu
 <td>Durability is important, so updates are less frequent, and are tested more carefully</td>
 </tr>
 </table>
+
+### Proprietary Vs. Open-Source
+
+> A large amount of protection measures have been developed for free usage, and only support fees are required.
+
+#### Proprietary
+Proprietary software is developed without revealing the code to external parties. 
+This is done for both security reasons and to protect patents.
+
+#### Open-Source
+Open-source software is openly available for anyone who cares to look at the code. It allows both professionals and non-professional enthusiasts to work together to improve and secure programs of common interest.
+
+### Windows
+
+- Windows is a common OS distributed by Microsoft. It is proprietary, and the current distribution is Windows 10.
+- Over time, Windows has become more secure and user-friendly, with rolling updates.
+- The original OS on which Windows is based was called MS-DOS.
+- Even though it is mainly managed through a graphical UI, it can also be managed via a command line interface.
+
+### Linux
+#### Linux Distributions
+Linux is an umbrella product that includes numerous distributions, all based on the Linux kernel.
+The kernel was originally developed by Linus Torvalds and has since then been maintained mainly by the open-source community.
+
+> Linux distributions are distinguished by the packages and programs added to the common kernel.
+
+### Debian-Based
+
+- Debian is one of the oldest and most popular Linux distributions.
+- Many other distributions were developed on top of Debian’s basic package set.
+- Ubuntu is the most popular Debian based system on the market.
+- The Ubuntu distribution includes several types for server and desktop usage.
+
+### RHEL
+
+- Aside from Debian, another main distribution is RHEL, which is server-oriented.
+- RHEL’s support and package distribution is proprietary, the code itself is openly available.
+- The main difference between Debian and RedHat is the package management system.
+- Only a few other distributions, such as CentOS, offer the same features as RHEL, without the proprietary components.
+
+### MacOS
+
+- MacOS is developed and maintained by Apple.
+- Since it is based on the UNIX kernel, which is also the foundation of the Linux kernel, they have similar features.
+- MacOS is completely proprietary and is restricted in terms of user control.
+
+### OS Components
+
+#### Kernel 
+The kernel is the core code of the OS. It acts as the middleman between the OS and the hardware.
+It manages the CPU and RAM, and access to it is typically restricted.
+
+#### File System 
+The file system is the second most important component of the OS. It is used to distribute disk space and store files and metadata.
+Access to the file system will typically be through an additional program known as File Manager.
+
+#### User Interface 
+The user interface is a component of the OS that contains other small programs and terminal emulators that enable CLI interaction.
+
+#### Networking
+Networking enables the sharing and transfer of data. Network management is typically performed by network drivers at the kernel level, together with network management programs.
+
+### Access Levels
+> Any OS can be logically divided into access or security levels (also known as *Privilege Rings*), whereby each level includes different functionalities.
+
+#### Privilege Rings
+<table>
+<tr>
+<td>Ring 3 - Application </td>
+<td>The top-most and least privileged layer. Regular users can access this ring, and it is where applications are executed and interacted with.</td>
+<tr>
+<td>Ring 2 - OS API</td>
+<td>Libraries of code embedded within the OS that provide applications with common and shared functionalities, such as access to the memory and the file system. </td>
+</tr>
+<tr>
+<td>Ring 1 - Drivers </td>
+<td>Drivers are complex pieces of code responsible for translating programs and commands to electrical currents that can be transmitted to and from the I/O components. </td>
+</tr>
+<tr>
+<td>Ring 0 - Kernel </td>
+<td>The kernel is a major piece of code responsible for orchestrating the workflow of the system, and the place where the drivers are normally stored. The kernel is the most restricted level.</td>
+</tr>
+</table>
