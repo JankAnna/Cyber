@@ -328,21 +328,32 @@ MacOS is a proprietary OS owned by Apple. In some aspects, it is similar to Linu
 
 ### Desktop Vs. Server
 <table>
+<tr>
 <th>Desktop</th>
-<td>
-<tr>Desktop oriented OS has more graphical components and a simplified user environment</tr>
-<tr>Comes prebuilt with many user programs, such as media players and photo viewers</tr>
-<tr>Supports a large variety of I/O devices</tr>
-<tr>Supports the standard amount of memory and storage</tr>
-<tr>Receives constant updates, which means it may sometimes be less stable</tr>
-</td>
 <th>Server</th>
-<td>
-<tr>Server oriented OS is less graphical and more command line based</tr>
-<tr>Comes with more server-related programs, such as file sharing software and service managers</tr>
-<tr>Supports a small variety of I/O devices that are the most likely to be present on an actual server</tr>
-<tr>Most interaction is via remote terminal</tr>
-<tr>Supports large amounts of storage and RAM</tr>
-<tr>Durability is important, so updates are less frequent, and are tested more carefully</tr>
-</td>
+</tr>
+<tr>
+<td>Desktop oriented OS has more graphical components and a simplified user environment</td>
+<td>Server oriented OS is less graphical and more command line based</td>
+</tr>
+<tr>
+<td>Comes prebuilt with many user programs, such as media players and photo viewers</td>
+<td>Comes with more server-related programs, such as file sharing software and service managers</td>
+</tr>
+<tr>
+<td>Supports a large variety of I/O devices</td>
+<td>Supports a small variety of I/O devices that are the most likely to be present on an actual server</td>
+</tr>
+<tr>
+<td>Supports the standard amount of memory and storage</td>
+<td>Supports large amounts of storage and RAM</td>
+</tr>
+<tr>
+<td>Most user-interaction is done directly on the computer</td>
+<td>Most interaction is via remote terminal</td>
+</tr>
+<tr>
+<td>Receives constant updates, which means it may sometimes be less stable</td>
+<td>Durability is important, so updates are less frequent, and are tested more carefully</td>
+</tr>
 </table>
