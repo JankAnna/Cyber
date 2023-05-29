@@ -249,5 +249,99 @@ Computer Hardware is an ever-growing and ever-evolving field. None the less the 
 In this lesson, the field will be covered, as it an essential part of understanding how a computer works and the operating systems that use it.
 
 ## `Hardware`
+### Computer Hardware
+- Every computer contains hardware components with designated responsibilities.
+- All computers must have the core components, such as memory and processor.
+- Other components are optional, depending on the intended functionality of the computer.
+
+### Motherboard
+The Computer’s motherboard is the most essential internal component of any computer.
+It is a Printed Circuit Board (PCB) to which all other components are connected.
+It distributes power throughout the PC and enables communication and synchronization among internal components.
+
+> On smaller computers, such as mobile devices, some other hardware can be soldered directly onto the motherboard.
+
+### CPU - Central Processing Unit
+The CPU is the brains of the entire system and consists of billions of micro-transistors that manipulate electric currents in order to preform calculations and transfer data.
+The CPU is responsible for all calculations performed by the computer, and the execution of software commands. When other dedicated microprocessors are present, such as a GPU, the CPU may redirect some tasks to them.
+
+> The CPU is a complex component that includes other internal components, such as Control Unit, Memory Cache, and Arithmetical Calculation Unit.
+
+### RAM - Random Access Memory
+RAM is used to store data for processes and services that are currently in use. It is volatile, which means it is erased upon computer shutdown.
+No computer can operate without RAM, since even the OS is loaded into it upon system booting.
+
+> The more RAM the computer has, the better it will be able to handle large amounts of processes.
+
+### Storage - HDD & SSD
+Besides the RAM, a computer needs to have long-term, non-volatile storage.
+This type of storage is used to store documents and files that need to remain persistent between boots.
+The main types of storage nowadays are HDDs and SSDs.
+Hard Disk Drives are larger in capacity, but slower than Solid State Drives, which are nowadays becoming the standard in modern devices.
+
+> Modern PCs, laptops, and servers usually come with an SSD for the OS installation, and an HDD as a secondary storage for files and documents.
+
+### GPU - Graphical Processing Unit
+The GPU is a somewhat stronger version of the CPU. It is optimized for graphical calculations and the rendering of images and colors.
+However, the CPU is a more general-purpose unit, and is faster when it comes to calculations and multitasking processes.
+
+> The GPU is sometimes soldered to the motherboard, but can also be a separate extension that can be added to it.
+
+### NIC - Network Interface Controller
+The NIC is a dedicated piece of hardware for receiving and sending network traffic.
+A standard NIC will typically be built in to the motherboard, although a faster and more capable card can be installed as an extension.
+Special NICs, known as external network cards, can also be connected via standard USB ports.
+
+> The main two types of network interface controllers are the Ethernet Adapter (cable connection) and Wireless Adapter (Wi-Fi).
+
+### I/O
+
+> Besides standard I/O, sensors and transmitters are also considered I/O components.
+
+#### Input Devices
+The standard and most common input devices are a keyboard and a mouse. In older systems, input pesese se devices, including keyboards, required drivers. In modern systems, most drivers are standardized seesee 88 andare implemented as Plug & Play modules.
+
+#### Output Devices
+Output devices provide content to the user, such as screens or speakers. Devices without a screen for output are known as Headless devices. In modern mobile devices, the screen acts as both an input and output device.
+
+
+- [bequiet | Power Supply Calculator](https://www.bequiet.com/en/psucalculator)
 
 ## `Operating Systems`
+### OS - Operating System
+The OS is a large, complex piece of software that consists of smaller programs, such as the Desktop Manager, File Manager, and the Kernel.
+The OS is responsible for managing resources, user interaction, and much more.
+The most common operating systems on the market are Windows, Linux, and MacOS.
+
+> The operating system of a computer is responsible for the execution and management of user permissions, and running other software.
+
+### Common Operating Systems
+
+#### Windows
+Windows is the most well-known OS, due to its simplicity and user friendliness. It is commonly used on PCs, but is also available for servers.
+
+#### Linux
+Linux is a kernel that runs numerous distributions. They all share the same core, but work with different packages and programs. Unlike Windows, Linux is open-source. 
+
+#### MacOS
+MacOS is a proprietary OS owned by Apple. In some aspects, it is similar to Linux distributions, but is more limited in its capabilities.
+
+### Desktop Vs. Server
+
+<th>Desktop</th>
+<td>
+<tr>Desktop oriented OS has more graphical components and a simplified user environment</tr>
+<tr>Comes prebuilt with many user programs, such as media players and photo viewers</tr>
+<tr>Supports a large variety of I/O devices</tr>
+<tr>Supports the standard amount of memory and storage</tr>
+<tr>Receives constant updates, which means it may sometimes be less stable</tr>
+</td>
+<th>Server</th>
+<td>
+<tr>Server oriented OS is less graphical and more command line based</tr>
+<tr>Comes with more server-related programs, such as file sharing software and service managers</tr>
+<tr>Supports a small variety of I/O devices that are the most likely to be present on an actual server</tr>
+<tr>Most interaction is via remote terminal</tr>
+<tr>Supports large amounts of storage and RAM</tr>
+<tr>Durability is important, so updates are less frequent, and are tested more carefully</tr>
+</td>
