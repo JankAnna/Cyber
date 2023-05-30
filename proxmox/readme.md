@@ -202,23 +202,29 @@ scp "c:\users\anja\downloads\CentOS-7-x86_64-DVD-2009.iso" root@10.1.2.120:\var\
 
 5. Konfiguracja sieci (*jeżeli nie ustawione przy instalacji*) i aktualizacja
     - w pliku /etc/sysconfig/network-scripts/ifcfg-eth0 ONBOOT=no zmieniamy na ONBOOT=yes w edytorze vi [Instrukcja](http://www.cs.put.poznan.pl/dwawrzyniak/vi.pdf)
-```
-vi /etc/sysconfig/network-scripts/ifcfg-eth0
-```
-> ONBOOT=no *zmieniamy na* ONBOOT=yes
+
+        ```
+        vi /etc/sysconfig/network-scripts/ifcfg-eth0
+        ```
+
+        > ONBOOT=no *zmieniamy na* ONBOOT=yes
 
     - komendą dhclient prosimy o przydzielenie adresu IP przez serwer DHCP
-```
-dhclient
-```
+
+        ```
+        dhclient
+        ```
     - sprawdzamy adres IP maszyny
-```
-ip a
-```
+
+        ```
+        ip a
+        ```
     - aktualizujemy
-```
-yum update
-```
+
+        ```
+        yum update
+        ```
+
 6. Klonujemy maszynę
 
 
