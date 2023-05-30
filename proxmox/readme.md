@@ -1,6 +1,20 @@
 # PROXMOX
 Zbiór instrukcji związanych z Proxmox
 
+## [PL] Linux Tutorial: Kopiowanie plików i folderów via SCP
+[steemit | Linux Tutorial: Kopiowanie plików i folderów via SCP](https://steemit.com/polish/@piotr42/linux-tutorial-kopiowanie-plikow-i-folderow-via-scp)
+
+Przesyłanie plików na maszynę zdalną:
+```
+scp "c:\users\anja\downloads\CentOS-7-x86_64-DVD-2009.iso" root@10.1.2.120:\var\lib\vz\template\iso\
+
+```
+
+Przesyłanie katalogu:
+```
+scp -r "X:\VM-shared" root@10.1.2.120:\goodram\VM-shared
+```
+
 ## [PL/EN] Instalacja TrueNAS
 - :cinema: [EN] [TrueNAS Core 12 Install and Basic Setup](https://www.youtube.com/watch?v=WjLaK8yQAag)
 - :cinema: [PL] [TrueNAS - własny serwer danych od podstaw](https://www.youtube.com/watch?v=-wxi7mBJpWo)
@@ -158,5 +172,56 @@ qm set <nr_maszyny_wirtualnej> -scsi<kolejny_nr> /dev/disk/by-uuid/<uuid_dysku>
 19. Ostatni punkt sprawdzenie aktualizacji wtyczki na stronie TrueNAS~
     - w menu z lewej strony "Plugins" > "UPDATE"
     
+
+## [PL/EN] Instalacja CentOS 7 na PROXMOX, konfiguracja sieci oraz klonowanie VM
+- :cinema: [EN] [How to Install Centos 7 on Proxmox Virtual Environment](https://www.youtube.com/watch?v=JzXTxNQbyM8)
+- :cinema: [EN] [Cloning VMs and Containers in ProxMox](https://www.youtube.com/watch?v=Wip5EjGo5ME)
+- :cinema: [EN] [Proxmox VM Configuring CentOS for Internet and Updating via Yum](https://www.youtube.com/watch?v=srY7DfkqUpY)
+
+### [PL] Instrukcja Instalacji CentOS 7 na PROXMOX
+1. Poranie pliku iso:
+    - [CentOS | Download](https://www.centos.org/download/)
+    - [AGH | Link do pliku .iso](http://ftp.agh.edu.pl/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso)
+2. Przesłanie .iso do proxmoxa przez scp
+```
+scp "c:\users\anja\downloads\CentOS-7-x86_64-DVD-2009.iso" root@10.1.2.120:\var\lib\vz\template\iso\
+```
+3. Wchodzimy na stronę proxmox i tworzymy nową VM
+    - klikamy przycisk "Create VM"
+    - **General**: 
+        - Name: "centos-kontroler"
+    - **OS**:
+        - ISO image: *CentOS-7-x86_64-DVD-2009.iso* 
+    - pozostałe parametry pozostawiam domyślne
+4. Uruchamiamy utworzoną VM
+    - Install CentOS 7
+    - wybieramy język instalacji (można wybrać Polski)
+    - wybieramy dysk 
+    - wybieramy ustawienia sieci 
+
+
+5. Konfiguracja sieci (*jeżeli nie ustawione przy instalacji*) i aktualizacja
+    - w pliku /etc/sysconfig/network-scripts/ifcfg-eth0 ONBOOT=no zmieniamy na ONBOOT=yes w edytorze vi [Instrukcja](http://www.cs.put.poznan.pl/dwawrzyniak/vi.pdf)
+```
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+```
+> ONBOOT=no *zmieniamy na* ONBOOT=yes
+
+    - komendą dhclient prosimy o przydzielenie adresu IP przez serwer DHCP
+```
+dhclient
+```
+    - sprawdzamy adres IP maszyny
+```
+ip a
+```
+    - aktualizujemy
+```
+yum update
+```
+6. Klonujemy maszynę
+
+
+
 
 
